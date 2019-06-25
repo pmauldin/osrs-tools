@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/osrs-tools/static/css/main.2cce8147.chunk.css",
-    "main.js": "/osrs-tools/static/js/main.e45eccdd.chunk.js",
-    "main.js.map": "/osrs-tools/static/js/main.e45eccdd.chunk.js.map",
+    "main.js": "/osrs-tools/static/js/main.c84c2487.chunk.js",
+    "main.js.map": "/osrs-tools/static/js/main.c84c2487.chunk.js.map",
     "runtime~main.js": "/osrs-tools/static/js/runtime~main.ce79e23e.js",
     "runtime~main.js.map": "/osrs-tools/static/js/runtime~main.ce79e23e.js.map",
-    "static/js/2.b41502e9.chunk.js": "/osrs-tools/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/osrs-tools/static/js/2.b41502e9.chunk.js.map",
+    "static/js/2.b9968a8a.chunk.js": "/osrs-tools/static/js/2.b9968a8a.chunk.js",
+    "static/js/2.b9968a8a.chunk.js.map": "/osrs-tools/static/js/2.b9968a8a.chunk.js.map",
     "index.html": "/osrs-tools/index.html",
-    "precache-manifest.f8e00d194ff083c84adc607acb92e6d6.js": "/osrs-tools/precache-manifest.f8e00d194ff083c84adc607acb92e6d6.js",
-    "service-worker.js": "/osrs-tools/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/osrs-tools/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/osrs-tools/static/media/logo.5d5d9eef.svg"
+    "precache-manifest.ca09ba1c754c2c5e5c1f9425cefdf41a.js": "/osrs-tools/precache-manifest.ca09ba1c754c2c5e5c1f9425cefdf41a.js",
+    "service-worker.js": "/osrs-tools/service-worker.js"
   }
 }
