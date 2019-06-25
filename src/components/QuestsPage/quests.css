@@ -1,0 +1,55 @@
+.quest-page {
+    grid-template: 10% 90% / 20% 2fr 2fr 2fr 20%;
+    width: 100%;
+    height: 100%;
+}
+
+.quest-page-title {
+    grid-area: 1 / 2 / 2 / 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    font-size: 4em;
+}
+
+.quest-filters {
+    font-size: 1.5em;
+    grid-area: 2 / 2 / 3 / 3;
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+}
+
+.quest-list-container {
+    font-size: 1.5em;
+    grid-area: 2 / 3 / 3 / 5;
+    /*background-color: maroon;*/
+}
+
+.quest-list {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+}
+
+.quest {
+    width: 80%;
+    margin-top: 10px;
+    border: 1px solid #171717;
+    border-radius: 4px;
+}
+
+.quest-done {
+    color: darkgreen;
+}
+
+.quest-in-progress {
+    color: yellow;
+}
+
+.quest-not-started {
+    color: maroon;
+}
