@@ -1,0 +1,58 @@
+.quest {
+    display: flex;
+    width: 800px;
+
+    margin-bottom: 10px;
+    background-color: #303030;
+    border: 1px solid #444;
+    border-radius: .25rem;
+    flex-direction: column;
+}
+
+.quest-header {
+    display: flex;
+    cursor: pointer;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    font-size: 1.5em;
+    background-color: #444;
+}
+
+.quest-checkbox {
+    padding-left: 10px;
+}
+
+.quest-name {
+    padding-left: 10px;
+    flex-grow: 1;
+}
+
+.quest .chevron {
+    margin-right: 15px;
+}
+
+.quest-done {
+    color: green;
+}
+
+.quest-in-progress {
+    color: yellow;
+}
+
+.quest-can-start {
+    color: white;
+}
+
+.quest-cannot-start {
+    color: red;
+}
+
+.quest-content {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.quest-collapsed {
+    display: none;
+}

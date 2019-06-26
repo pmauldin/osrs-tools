@@ -1,19 +1,15 @@
-import React from 'react';
+import {connect} from 'react-redux';
 
-const Quest = ({ name, status, reqsMet }) => {
+import Quest from './Quest';
+import {toggleQuestCard} from "../../../../actions/quests";
 
-    let className = 'quest-not-started';
-    if (status === "In Progress") {
-        className = 'quest-in-progress';
-    } else if (status === "Done") {
-        className = 'quest-done';
+export default connect((state, { questId }) => {
+    return {
+        quest: state.quests.quests[questId],
+        ...state.quests.cards[questId]
     }
-
-    return (
-        <div className={`quest ${className}`}>
-            {`${name}: ${status}. Requirements Met: ${reqsMet}`}
-        </div>
-    )
-};
-
-export default Quest;
+}, (dispatch) => {
+    return {
+        toggleCard: (id) => dispatch(toggleQuestCard(id))
+    }
+})(Quest);

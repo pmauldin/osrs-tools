@@ -1,12 +1,11 @@
-import React from 'react';
-import Quest from "./Quest";
+import {connect} from 'react-redux';
 
-const QuestList = ({ quests }) => (
-    <div className={`quest-list`}>
-        {quests.map(quest => (
-            <Quest key={quest.name} {...quest} />
-        ))}
-    </div>
-);
+import QuestList from './QuestList';
 
-export default QuestList;
+export default connect((state) => {
+    return {
+        quests: state.quests.quests,
+        pageOptions: state.quests.pageOptions,
+        cards: state.quests.cards
+    }
+})(QuestList);

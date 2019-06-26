@@ -10,11 +10,26 @@ body {
 #root {
   width: 100vw;
   height: 100vh;
-  background-color: #171717;
+  background-color: #222222;
   color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.chevron {
+  display: inline-block;
+  border-right: 4px solid white;
+  border-bottom: 4px solid white;
+  width: 10px; height: 10px;
+}
+
+.chevron-down {
+  transform: rotate(45deg);
+}
+
+.chevron-right {
+  transform: rotate(-45deg);
 }
